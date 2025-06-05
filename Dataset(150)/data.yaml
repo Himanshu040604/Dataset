@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Blast rig', 'Dumper truck', 'Excavator', 'car', 'person']
+
+roboflow:
+  workspace: texmin
+  project: annotation-rfxcx
+  version: 15
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/texmin/annotation-rfxcx/dataset/15

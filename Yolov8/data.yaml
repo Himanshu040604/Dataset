@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Blast rig', 'Dumper truck', 'Excavator', 'car', 'person']
+
+roboflow:
+  workspace: texmin
+  project: annotation-video2
+  version: 18
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/texmin/annotation-video2/dataset/18
